@@ -22,7 +22,6 @@
 		F926AC232BED1270001D3794 /* w.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926AC222BED1270001D3794 /* w.swift */; };
 		F926AC252BED127A001D3794 /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926AC242BED127A001D3794 /* s.swift */; };
 		F926AC272BED1285001D3794 /* d.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926AC262BED1285001D3794 /* d.swift */; };
-		F926AC2A2BED12B5001D3794 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F926AC292BED12B5001D3794 /* OneSignalFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F926AC2A2BED12B5001D3794 /* OneSignalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +161,6 @@
 			);
 			name = App573;
 			packageProductDependencies = (
-				F926AC292BED12B5001D3794 /* OneSignalFramework */,
 			);
 			productName = App573;
 			productReference = F926ABF92BED0DF8001D3794 /* App573.app */;
@@ -194,7 +191,6 @@
 			);
 			mainGroup = F926ABF02BED0DF8001D3794;
 			packageReferences = (
-				F926AC282BED12B5001D3794 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
 			);
 			productRefGroup = F926ABFA2BED0DF8001D3794 /* Products */;
 			projectDirPath = "";
@@ -456,25 +452,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F926AC282BED12B5001D3794 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F926AC292BED12B5001D3794 /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F926AC282BED12B5001D3794 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalFramework;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F926ABF12BED0DF8001D3794 /* Project object */;
 }
