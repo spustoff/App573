@@ -9,14 +9,14 @@
     <key>provisioningProfiles</key>
     <dict>
         <key>com.thi.arc4n4l4un2ch</key>
-        <string>profile</string>
+        <string>UUID_PROVISIONING_PROFILE</string>
     </dict>
     <key>signingStyle</key>
     <string>manual</string>
     <key>stripSwiftSymbols</key>
     <true/>
     <key>compileBitcode</key>
-    <false/>
+    <true/>
     <key>destination</key>
     <string>export</string>
     <key>thinning</key>
