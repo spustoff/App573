@@ -21,5 +21,9 @@
     <string>export</string>
     <key>thinning</key>
     <string>&lt;none&gt;</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.1</string> <!-- Обновите версию здесь -->
+    <key>CFBundleVersion</key>
+    <string>3</string> <!-- Обновите номер сборки здесь -->
 </dict>
 </plist>
